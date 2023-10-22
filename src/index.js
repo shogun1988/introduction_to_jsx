@@ -6,7 +6,9 @@ const currentTime = date.getHours();
 
 let greeting;
 
-const customStyle = {};
+const customStyle = {
+  color: ""
+};
 
 if (currentTime < 12) {
   greeting = "Good Morning";
